@@ -11,7 +11,7 @@ function App() {
   // IMPORTANT: This URL points to your Node.js backend server.
   // For local development, it's http://localhost:5000
   // When deployed to Vercel, it will be relative: '/api' (we'll change this later)
-  const backendUrl = "http://localhost:5000";
+  const backendUrl = "https://yt-downloader-backend-umh2.onrender.com/";
 
   const handleDownload = async () => {
     if (!videoUrl) {
