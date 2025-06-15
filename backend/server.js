@@ -5,7 +5,7 @@ const path = require("path"); // Not strictly needed for serverless, but good fo
 const fs = require("fs"); // Not strictly needed for serverless, but good for local dev understanding
 
 const app = express();
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 // Configure CORS to allow Content-Disposition header to be exposed to the frontend
 app.use(
